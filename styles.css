@@ -12,6 +12,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     justify-self: start;
+    margin-top: 0%;
     padding: 0%;
 }
 
@@ -22,6 +23,7 @@ body {
 }
 .header {
     display: flex;
+    margin-bottom:50px;
 
 }
 .head1 {
@@ -36,7 +38,8 @@ a {
 
 .fp {
  background-color: #1F2937;
- padding:100px;
+ padding:170px;
+ padding-top: 10px;
  flex-wrap: wrap;
 }
 
@@ -53,10 +56,62 @@ color: #F9FAF8;
 
 p{
   font-size: 18px;
-  color:#E5E7EB;  
   padding: 0%;
 }
 
 .bick {
     padding-right: 20px;
+    color:#E5E7EB;  
+}
+
+h1 {
+    margin:0%;
+    margin-top: 7px;;
+}
+
+.link {
+       list-style-type: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       width: 2000px;
+}
+
+li{
+    color:#E5E7EB;  
+    font-size: 18px;
+}
+.random {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 40px;;
+}
+
+.whip{
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+
+button{
+background-color: #3882f6;
+border-radius: 10px;
+width: 140px; 
+height:40px;
+box-shadow: none; 
+border-color: #3882f6;
+color: white;
+}
+
+.smallimgs{
+height: 200px;
+width: 310px;
+border-color: #3882f6;
+border-radius: 20px;
+border-width: thick;
 }
