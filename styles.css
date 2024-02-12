@@ -4,6 +4,10 @@ body {
  font-family: 'Roboto';
  border:0px;
  margin:0px;
+ width: 2000px;
+ height: 1300px;
+ flex-grow: 1;
+ flex-shrink: 1;
 }
 .left {
     display:flex;
@@ -24,6 +28,7 @@ body {
 .header {
     display: flex;
     margin-bottom:50px;
+    flex-grow: 1;
 
 }
 .head1 {
@@ -41,6 +46,7 @@ a {
  padding:170px;
  padding-top: 10px;
  flex-wrap: wrap;
+ min-height: 800px;
 }
 
 .hero {
@@ -52,6 +58,7 @@ color: #F9FAF8;
 .second {
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 p{
@@ -73,7 +80,9 @@ h1 {
        list-style-type: none;
        display: flex;
        flex-direction: row;
-       justify-content: space-around;
+       justify-content:center;
+       gap: 50px;
+       padding: 0%;
        flex-wrap: wrap;
        width: 2000px;
 }
@@ -81,6 +90,8 @@ h1 {
 li{
     color:#E5E7EB;  
     font-size: 18px;
+    text-align: center;
+    width: 180px;
 }
 .random {
     display:flex;
@@ -88,14 +99,15 @@ li{
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
-    padding: 40px;;
+    padding: 50px;
+    min-height: 800px;
 }
 
 .whip{
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
-
+    margin-bottom: 40px;
 }
 
 button{
@@ -110,8 +122,12 @@ color: white;
 
 .smallimgs{
 height: 200px;
-width: 310px;
+width: 180px;
 border-color: #3882f6;
-border-radius: 20px;
-border-width: thick;
+border-radius: 10px;
+border: 4px solid #3882f6;;
+}
+
+.third{
+    background-color: #E5E7EB;
 }
