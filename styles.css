@@ -170,3 +170,12 @@ border: 4px solid #3882f6;;
     border-radius: 10px;
     height: 150px;
 }
+
+.action{
+    display: flex;
+    flex-direction: column;
+}
+
+.call{
+   margin: auto;
+}
