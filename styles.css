@@ -4,7 +4,7 @@ body {
  font-family: 'Roboto';
  border:0px;
  margin:0px;
- width: 2000px;
+ width: 1800px;
  height: 1300px;
  flex-grow: 1;
  flex-shrink: 1;
@@ -84,7 +84,7 @@ h1 {
        gap: 50px;
        padding: 0%;
        flex-wrap: wrap;
-       width: 2000px;
+       width: 1900px;
 }
 
 li{
